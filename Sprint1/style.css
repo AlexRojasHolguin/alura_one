@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(202,200,232);
+    background: linear-gradient(135deg, rgba(202,200,232,1) 0%, rgba(10,56,113,1) 64%);
+}
+header{
+    width: 100%;
+    height: 5%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.info-link{
+    font-size: 20px;
+    margin-right: 25px;
+}
+.info-link a{
+    color: #f1f1f1;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90%;
+}
+section{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+}
+.cript{
+    width: 65%;
+}
+.info{
+    text-align: center;
+    margin-top: 10px;
+}
+.informacion{
+    color: #ffffff;
+}
+.texto{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 25px;
+    border-radius: 25px;
+}
+.botones{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-encriptar,.btn-desencriptar{
+    width: 25%;
+    height: 40px;
+    border-radius: 15px;
+}
+.btn-encriptar{
+    background-color: #0A3871;
+    color: #ffffff;
+}
+.btn-desencriptar{
+    background-color: #f8f8f8;
+}
+.result{
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.cont-persona{
+    width: 100%;
+    height: 60%;
+    padding-top: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.cont-h3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.cont-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.cont-cript{
+    width: 100%;
+    height: 70%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.text-result{
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+.cont-copy{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.btn-copiar{
+    width: 35%;
+    height: 40px;
+    border-radius: 15px;
+}
+footer{
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    color: #000000;
+}
+.hide{
+    display: none;
+}
+.info-encriptador{
+    background: rgb(39,38,54);
+    background: linear-gradient(45deg, rgba(39,38,54,1) 40%, rgba(10,56,113,1) 85%);
+}
+.sobreEncriptador{
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.lista{
+    display: block;
+    text-align: center;
+}
+.imginfo{
+    display: block;
+    margin: auto;
+    padding: 30px;
+}
+.linkVolver{
+    font-size: 20px;
+    text-align: center;
+}
+.linkVolver a{
+    color: #ffffff;
+}
